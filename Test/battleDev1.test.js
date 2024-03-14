@@ -13,13 +13,12 @@ describe('Voici le test pour le Battle Dev level1', () => {
         it('Test avec un parent A entièrement récessif et un parent B entièrement dominant ',() =>{
             expect(level1(['ABC', 'XYZ'])).to.deep.equal('XYZ');
         })
-        it('Test avec un parent B possédant un gène récessif',() =>{
+        it('Test avec un parent A possédant un gène récessif',() =>{
             expect(level1(['ABZ', 'XYC'])).to.deep.equal('XYZ');
         })
         it('Test avec un parent A partiellement récessif',() =>{
             expect(level1(['XBZ', 'AYC'])).to.deep.equal('XYZ');
         })
     })
-
 
 })
