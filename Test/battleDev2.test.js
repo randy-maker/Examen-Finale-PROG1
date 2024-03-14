@@ -18,5 +18,8 @@ describe('Voici les tests pour le battle Dev level2', () => {
         it('2.1 - test sur aucun colis ', ()=>{
             expect(level2([0])).to.deep.equal(0)
         })
+        it('2.1 - test sur une quantité négative de colis', ()=>{
+            expect(level2([-1])).to.deep.equal(0)
+        })
     })
 })
