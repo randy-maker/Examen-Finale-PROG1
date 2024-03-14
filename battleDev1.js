@@ -5,6 +5,7 @@
  * @returns string
  */
 export function level1(input) {
+    if (input.length == 0) return "Pas d'enfant";
     let parent1 = input[0];
     let parent2 = input[1];
     let enfant = [];
@@ -24,7 +25,3 @@ export function level1(input) {
     }
     return enfant.join('');
 }
-
-
-console.log(level1(['BAC', 'BXC'])) // XBC
-console.log(level1(['AYC', 'XBC'])) // XBC

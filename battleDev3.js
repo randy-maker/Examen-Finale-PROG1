@@ -33,10 +33,8 @@ export function level3 (input){
                 i = i + jump - 1;
             }
         }
+        console.log(`${left} ${right}`);
     }
     return `${left} ${right}`;
 }
-
-// let test1 = level3([6,'ADD 5', 'SWAP', 'ADD 3', 'JUMP -2', 'TRANSFER', 'ADD 2'])
-// console.log(test1);
 

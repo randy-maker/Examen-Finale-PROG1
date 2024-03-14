@@ -3,7 +3,7 @@ import { describe, it } from "mocha";
 import { level2 } from '../battleDev2.js'
 
 describe('Voici les tests pour le battle Dev level2', () => {
-    describe('1 / Quelques tests simples avec moins de 10 colis:', () => {
+    describe('1 / Quelques tests avec moins de 10 colis:', () => {
         it('test sur 3 colis avec un doublon', ()=>{
             expect(level2([3, '6x9x10', '2x10x8', '9x10x6'])).to.deep.equal(1)
         })
