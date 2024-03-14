@@ -1,0 +1,22 @@
+{
+  "name": "examen-finale-prog1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "examen finale prog1 Guilde  Bubuntu",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "keywords": [
+    "examen",
+    "finale",
+    "prog1",
+    "bubuntu"
+  ],
+  "author": "Guilde Bubuntu",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
