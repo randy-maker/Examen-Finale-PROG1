@@ -33,7 +33,6 @@ export function level3 (input){
                 i = i + jump - 1;
             }
         }
-        console.log(`${left} ${right}`);
     }
     return `${left} ${right}`;
 }
