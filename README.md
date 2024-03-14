@@ -6,4 +6,4 @@
 - `STD23024` : HARILANDY Fedora Anjaralalaina
 - `STD23089` : ANDRIANAIVOSOLO Titan Alrandy 
 
-- Les **test** des Battle Dev 1, 2 et 3 sont dans le dossier `Test`.  
+- Les **tests** des Battle Dev 1, 2 et 3 sont dans le dossier `Test`.  
